@@ -82,17 +82,10 @@ pip install -r requirements.txt
     - Creates a combined prompt with policy context + user question.
     - Calls `openai.chat.completions.create()` with a system prompt that instructs the model to answer only from the given context and say “I don’t know” if not covered. [web:71]
 
-## Why This Is Relevant for a School Group
-
-- Shows how an internal LLM assistant can sit on top of existing policy documents and reduce repetitive HR/admin queries.
-- Demonstrates a reusable RAG pattern:
-  - Replace `policies.txt` with any internal knowledge (HR handbook, admissions SOPs, IT policy) and re‑index.
-- Complements Project 1:
-  - Project 1 automates admissions email triage.
-  - Project 2 provides self‑service policy answers for staff, both built with OpenAI and Streamlit.
 
 ---
 
 Author: Nandhini Kalyanasundaram  
+
 
 
