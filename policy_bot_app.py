@@ -12,7 +12,7 @@ MODEL = "gpt-4o-mini"
 
 @st.cache_resource
 def get_index():
-    chunks = load_policy_chunks("data/policies.txt")
+    chunks = load_policy_chunks("Data/policies.txt")
     return build_index(chunks)
 
 
