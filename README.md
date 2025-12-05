@@ -67,6 +67,9 @@ pip install -r requirements.txt
   - “How should a teacher report sick leave to HR?”
 - The app will retrieve relevant policy sections and generate a concise answer.
 
+  <img width="1326" height="607" alt="image" src="https://github.com/user-attachments/assets/5a402b20-4ba6-45f1-9688-ad00cd424456" />
+
+
 ## How It Works (RAG Logic)
 
 - `rag_utils.py`:
@@ -86,6 +89,7 @@ pip install -r requirements.txt
 ---
 
 Author: Nandhini Kalyanasundaram  
+
 
 
 
