@@ -1,4 +1,4 @@
-# 📚 Policy & HR FAQ Assistant (RAG + Streamlit)
+# Policy & HR FAQ Assistant (RAG + Streamlit)
 
 An internal assistant that answers staff questions about school and HR policies using Retrieval‑Augmented Generation (RAG) with OpenAI and Streamlit.
 
@@ -86,6 +86,7 @@ pip install -r requirements.txt
 ---
 
 Author: Nandhini Kalyanasundaram  
+
 
 
 
